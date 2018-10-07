@@ -6,12 +6,18 @@ body {
   text-align:center;
 }
 
+#img_logo {
+  align: center;
+  opacity: 0.4;
+  width:30%;
+  padding-top: 2%;
+}
+
 #container {
   color:#999;
-  text-transform: uppercase;
   font-size:36px;
   font-weight:bold;
-  padding-top:200px;  
+  padding-top:200px;
   position:fixed;
   width:100%;
   bottom:45%;
@@ -36,13 +42,13 @@ body {
 }
 
 #flip div div {
-  background:#42c58a;
+  background:#004ca2;
 }
 #flip div:first-child div {
-  background:#4ec7f3;
+  background:#004ca2;
 }
 #flip div:last-child div {
-  background:#DC143C;
+  background:#004ca2;
 }
 
 @keyframes show {
